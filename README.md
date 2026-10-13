@@ -12,6 +12,8 @@ Tirocinio di Informatica (UniVR): dai miei schemi di studio estraggo un **vocabo
 
 **Ogni file, uno per uno, con cos'è e quando ti serve:** [img/mappa_file.svg](img/mappa_file.svg)
 
+**Tutte le grafiche delle regole (174), a muro:** [grafiche_regole/](grafiche_regole/) — cosa si vede e a cosa serve ciascuna in [grafiche_regole/INDICE.md](grafiche_regole/INDICE.md)
+
 - **Prova in 1 clic:** bottone Colab qui sopra. Niente chiavi, gira sugli esempi inclusi.
 - **Usa il vocabolario:** scarica `per_GPT.zip` dalla Demo e dallo a GPT o Claude in chat, poi la pagina del prof.
 - **Scarica una versione vecchia:** tab *Commits* → *Browse files* → *Code* → *Download ZIP*.
