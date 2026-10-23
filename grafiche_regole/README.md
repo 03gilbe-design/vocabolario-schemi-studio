@@ -194,20 +194,20 @@ Tutte le grafiche mai generate, in una cartella sola. Clic su una miniatura per 
 ## Tavole riassuntive e schemi del loop (16)
 
 <p>
-<a href="libreria_concetti_ai__TAVOLA_NUOVI.png"><img src="libreria_concetti_ai__TAVOLA_NUOVI.png" width="190" alt="TAVOLA_NUOVI"></a>
-<a href="libreria_dialetti__TAVOLA_1.png"><img src="libreria_dialetti__TAVOLA_1.png" width="190" alt="TAVOLA_1"></a>
-<a href="libreria_dialetti__TAVOLA_2.png"><img src="libreria_dialetti__TAVOLA_2.png" width="190" alt="TAVOLA_2"></a>
-<a href="libreria_nuove__TAVOLA_NUOVE.png"><img src="libreria_nuove__TAVOLA_NUOVE.png" width="190" alt="TAVOLA_NUOVE"></a>
-<a href="libreria_nuove__TAVOLA_NUOVE_2.png"><img src="libreria_nuove__TAVOLA_NUOVE_2.png" width="190" alt="TAVOLA_NUOVE_2"></a>
-<a href="libreria_testo__TAVOLA_NUOVI.png"><img src="libreria_testo__TAVOLA_NUOVI.png" width="190" alt="TAVOLA_NUOVI"></a>
-<a href="libreria_testo__TAVOLA_NUOVI_A.png"><img src="libreria_testo__TAVOLA_NUOVI_A.png" width="190" alt="TAVOLA_NUOVI_A"></a>
-<a href="libreria_testo__TAVOLA_NUOVI_B.png"><img src="libreria_testo__TAVOLA_NUOVI_B.png" width="190" alt="TAVOLA_NUOVI_B"></a>
-<a href="regole_v10__SCHEMA_LOOP.png"><img src="regole_v10__SCHEMA_LOOP.png" width="190" alt="SCHEMA_LOOP"></a>
-<a href="regole_v10__SCHEMA_LOOP_B.png"><img src="regole_v10__SCHEMA_LOOP_B.png" width="190" alt="SCHEMA_LOOP_B"></a>
-<a href="regole_v10__TAVOLA_1.png"><img src="regole_v10__TAVOLA_1.png" width="190" alt="TAVOLA_1"></a>
-<a href="regole_v10__TAVOLA_2.png"><img src="regole_v10__TAVOLA_2.png" width="190" alt="TAVOLA_2"></a>
-<a href="regole_v10__TAVOLA_3.png"><img src="regole_v10__TAVOLA_3.png" width="190" alt="TAVOLA_3"></a>
-<a href="regole_v10__TAVOLA_4.png"><img src="regole_v10__TAVOLA_4.png" width="190" alt="TAVOLA_4"></a>
-<a href="regole_v10__TAVOLA_5.png"><img src="regole_v10__TAVOLA_5.png" width="190" alt="TAVOLA_5"></a>
-<a href="regole_v10__TAVOLA_6.png"><img src="regole_v10__TAVOLA_6.png" width="190" alt="TAVOLA_6"></a>
+<a href="regole_v10__TAVOLA_1.png"><img src="regole_v10__TAVOLA_1.png" height="300" alt="TAVOLA_1"></a>
+<a href="regole_v10__TAVOLA_2.png"><img src="regole_v10__TAVOLA_2.png" height="300" alt="TAVOLA_2"></a>
+<a href="regole_v10__TAVOLA_3.png"><img src="regole_v10__TAVOLA_3.png" height="300" alt="TAVOLA_3"></a>
+<a href="regole_v10__TAVOLA_4.png"><img src="regole_v10__TAVOLA_4.png" height="300" alt="TAVOLA_4"></a>
+<a href="regole_v10__TAVOLA_5.png"><img src="regole_v10__TAVOLA_5.png" height="300" alt="TAVOLA_5"></a>
+<a href="libreria_testo__TAVOLA_NUOVI.png"><img src="libreria_testo__TAVOLA_NUOVI.png" height="300" alt="TAVOLA_NUOVI"></a>
+<a href="libreria_dialetti__TAVOLA_1.png"><img src="libreria_dialetti__TAVOLA_1.png" height="300" alt="TAVOLA_1"></a>
+<a href="libreria_dialetti__TAVOLA_2.png"><img src="libreria_dialetti__TAVOLA_2.png" height="300" alt="TAVOLA_2"></a>
+<a href="libreria_nuove__TAVOLA_NUOVE_2.png"><img src="libreria_nuove__TAVOLA_NUOVE_2.png" height="300" alt="TAVOLA_NUOVE_2"></a>
+<a href="libreria_concetti_ai__TAVOLA_NUOVI.png"><img src="libreria_concetti_ai__TAVOLA_NUOVI.png" height="300" alt="TAVOLA_NUOVI"></a>
+<a href="libreria_testo__TAVOLA_NUOVI_A.png"><img src="libreria_testo__TAVOLA_NUOVI_A.png" height="300" alt="TAVOLA_NUOVI_A"></a>
+<a href="libreria_testo__TAVOLA_NUOVI_B.png"><img src="libreria_testo__TAVOLA_NUOVI_B.png" height="300" alt="TAVOLA_NUOVI_B"></a>
+<a href="libreria_nuove__TAVOLA_NUOVE.png"><img src="libreria_nuove__TAVOLA_NUOVE.png" height="300" alt="TAVOLA_NUOVE"></a>
+<a href="regole_v10__TAVOLA_6.png"><img src="regole_v10__TAVOLA_6.png" height="300" alt="TAVOLA_6"></a>
+<a href="regole_v10__SCHEMA_LOOP.png"><img src="regole_v10__SCHEMA_LOOP.png" height="300" alt="SCHEMA_LOOP"></a>
+<a href="regole_v10__SCHEMA_LOOP_B.png"><img src="regole_v10__SCHEMA_LOOP_B.png" height="300" alt="SCHEMA_LOOP_B"></a>
 </p>

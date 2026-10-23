@@ -13,8 +13,13 @@ for pre, titolo in GRUPPI + [("*", "Tavole riassuntive e schemi del loop")]:
     png = sorted(os.path.basename(f) for f in glob.glob(os.path.join(D, pre + "__*.png")))
     png = [f for f in png if alta(f) == (pre == "*")]
     tot += len(png)
+    misura = 'width="190"'
+    if pre == "*":  # tavole alte e schemi larghi: altezza fissa, ordinate per forma -> righe piene, niente buchi
+        from PIL import Image
+        forma = lambda f: (lambda s: s[1] / s[0])(Image.open(os.path.join(D, f)).size)
+        png.sort(key=forma, reverse=True); misura = 'height="300"'
     out.append("\n## %s (%d)\n\n<p>\n%s\n</p>\n" % (titolo, len(png), "\n".join(
-        '<a href="%s"><img src="%s" width="190" alt="%s"></a>' % (f.replace(" ", "%20"), f.replace(" ", "%20"), f.split("__", 1)[1][:-4])
+        '<a href="%s"><img src="%s" %s alt="%s"></a>' % (f.replace(" ", "%20"), f.replace(" ", "%20"), misura, f.split("__", 1)[1][:-4])
         for f in png)))
 open(os.path.join(D, "README.md"), "w", encoding="utf-8").write("\n".join(out))
 assert tot == len(glob.glob(os.path.join(D, "*__*.png"))), "png fuori dai gruppi"
