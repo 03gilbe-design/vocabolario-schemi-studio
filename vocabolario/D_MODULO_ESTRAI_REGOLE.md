@@ -3,10 +3,10 @@ Basato su `COME_ESTRARRE_LE_REGOLE.md` (passi 3.2, 3.4, 4) e sul meccanismo di `
 (Claude A estrae → Claude B genera su pagina mai vista → Claude A rivede). I prompt E1, V1, R1 sono quelli di 37, con due aggiunte segnate [+].
 
 ## 0. Ingresso
-- **Caso 1 (coppia):** una pagina del docente + lo schema che Gilberto ne ha ricavato, dello STESSO argomento (checklist K7). Se il suo schema copre più pagine del docente, prima si sceglie quali servono.
-- **Caso 2 (appunti qualsiasi):** solo una sua pagina, senza la pagina del docente. Vale lo stesso modulo, ma si vede solo il risultato, non la trasformazione: la regola va confermata su una seconda sua pagina diversa prima del passo 3.
+- **Caso 1 (coppia):** una pagina del docente + lo schema che ne ho ricavato io, dello STESSO argomento (checklist K7). Se il mio schema copre più pagine del docente, prima si sceglie quali servono.
+- **Caso 2 (appunti qualsiasi):** solo una mia pagina, senza la pagina del docente. Vale lo stesso modulo, ma si vede solo il risultato, non la trasformazione: la regola va confermata su una seconda mia pagina diversa prima del passo 3.
 - **Pagina di verifica:** una pagina del docente MAI usata per ricavare regole (K3), di un'altra materia se possibile.
-- Si usano solo suoi schemi veri (non fatti con l'AI, non ricevuti da altri).
+- Si usano solo miei schemi veri (non fatti con l'AI, non ricevuti da altri).
 
 ## 1. Prompt E1 — estrai UNA regola (Claude A, chat nuova)
 ```
@@ -71,7 +71,7 @@ E1 → V1 → R1. Se `modifico` = true: V1 con la regola nuova → R1. Dopo il s
 - Coppia: prof cache "1) DIRETTO" (architettura_2semestre Copy.pdf p.16) | suo schema Architettura_Gilberto.pdf p.2. Pagina nuova: Amos p.46-47 (Bernoulli e binomiale).
 - A1 ha estratto: «Quando una spiegazione si basa su numeri grandi o casi astratti, rifalla con un esempio in miniatura che puoi seguire passo per passo fino in fondo: con pochi elementi vedi tutto il meccanismo e capisci davvero come funziona, invece di memorizzare formule.»
 - B1 generata: 4 difetti dal controllo automatico (1 testo tagliato, 3 sovrapposizioni). A2: "seguita: sì", ma la modifica («…seguendo gli stessi passaggi ma in scala ridotta…»).
-- B2 non generata (limite di usage alle 05:55); MANIFEST finale non scritto. 1 prova sola: nessuna conclusione.
+- B2 non generata (limite di uso del modello); MANIFEST finale non scritto. 1 prova sola: nessuna conclusione.
 - Già da qui: la regola estratta coincide con una voce che Gilberto ha messo nello STILE ("un caso concreto con numeri piccoli"). Per questo il passo 6 (classificare) è obbligatorio prima di accettarla.
 
 ## 8. Estrarre in numeri (attenzione, macro 5) — deterministico, senza AI
@@ -83,7 +83,7 @@ Una regola di attenzione non si estrae con un prompt: si **misura** sui suoi PNG
    C:\Python310\python.exe -X utf8 ESPERIMENTI\41_ATTENZIONE_NUMERI\misura.py --suoi a.png b.png c.png ... --out rif_MATERIA.json
    ```
    Lo script stampa min-max e mediana di 3 numeri:
-   - **colore forte (% della pagina):** la stessa funzione `sat()` del grafico delle slide, in cui il corallo #FF644B conta;
+   - **colore forte (% della pagina):** la stessa funzione `sat()` usata negli esperimenti, in cui il corallo #FF644B conta;
    - **zone di colore forte separate;**
    - **tinta principale:** quale percentuale dei pixel colorati prende la tinta più usata.
    

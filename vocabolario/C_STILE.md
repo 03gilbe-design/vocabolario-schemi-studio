@@ -1,9 +1,9 @@
 # C — STILE (un tono, non un modello da copiare)
-Le regole A vengono prima. Questo è il tono dei suoi schemi di Architettura: da usare come direzione, variando da pagina a pagina.
-Non va riprodotto identico (con il blocco stile fisso il modello lo copiava pari pari: CRITICHE_08-10 #1).
-Numeri misurati dal codice (`stile_numeri.py` → `ESPERIMENTI/5_STILE_in_numeri/stile_gilberto.json`) su 6 sue pagine di Architettura (p02-p07, PDF vettoriale).
+Le regole A vengono prima. Questo è il tono dei miei schemi di Architettura: da usare come direzione, variando da pagina a pagina.
+Non va riprodotto identico (con il blocco stile fisso il modello lo copiava pari pari: CRITICHE_MODELLI #1).
+Numeri misurati dal codice (`stile_numeri.py` → `ESPERIMENTI/5_STILE_in_numeri/stile_gilberto.json`) su 6 mie pagine di Architettura (p02-p07, PDF vettoriale).
 
-## 1. Le sue frasi (sezione 6 del Word, parola per parola)
+## 1. Le mie frasi (sezione 6 del Word, parola per parola)
 - simboli e formule: la formula simbolica può comparire, ma solo come rinforzo, sotto la versione visiva
 - forme irregolari: un contorno a mano si distingue dal testo e dalle forme tecniche; in genere gli elementi disordinati (font a mano, forme irregolari) richiamano l'attenzione
 - etichette corte e vicine: il testo è corto, a poco contrasto, attaccato al disegno che descrive
@@ -55,7 +55,7 @@ Linee piene 537, tratteggiate 34 (6,0%). Fascia del titolo: alta 9,6% della pagi
 Fascia corallo in alto con il titolo a mano · testo marrone chiaro, mai nero puro come colore principale · un elemento corallo che segue il caso ·
 disegni a tratto sottile, riempimenti chiari (pesca, azzurro, grigio-rosa) · collegamenti tratteggiati colorati · risultato in fondo.
 
-## 6. Cosa ne consegue (regole operative ricavate da Claude Code dai numeri sopra; non sono sue parole)
+## 6. Cosa ne consegue (regole operative ricavate da Claude Code dai numeri sopra; non sono parole mie)
 1. Un solo colore forte: il corallo sta sotto il 10% dell'area; tutto il resto è crema, marrone e tinte chiare.
 2. Il colore forte va dove c'è da seguire qualcosa (titolo, caso, risultato), non su riquadri decorativi.
 3. Il testo corrente è tenue (marrone chiaro, 51%); il nero e il grassetto (9%) servono per ciò che deve emergere.
@@ -66,7 +66,7 @@ disegni a tratto sottile, riempimenti chiari (pesca, azzurro, grigio-rosa) · co
 8. Fondo crema, mai bianco puro.
 9. Variare: la fascia, i colori e le forme non si ripetono identici su ogni pagina; si tiene il tono.
 
-## Esempi (solo esempi, dai suoi schemi; non fanno parte dello stile da dare al modello)
+## Esempi (solo esempi, dai miei schemi; non fanno parte dello stile da dare al modello)
 - etichette corte e vicine: MEMORIA e CACHE attaccate ai loro rettangoli
 - il nome al posto del verbo: «preleva l'istruzione» → FETCH
 - miniature frase | ritaglio: `ESPERIMENTI/35_STILE_MINIATURE/STILE_FRASI_MINIATURE.pdf` (14 frasi su 15 con esempio; deboli 8, 10, 12; l'ultima senza esempio)

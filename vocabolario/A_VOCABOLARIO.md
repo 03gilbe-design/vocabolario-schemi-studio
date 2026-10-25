@@ -1,6 +1,6 @@
 # A — VOCABOLARIO (regole generali)
-Testi copiati parola per parola dal sorgente del Word (`fai_word_regole.py`, liste CAT, INTRO, CORSIVO; = VOCABOLARIO_GENERALE.pdf del 09/10 04:59).
-Righe in corsivo = formulazioni approvate da Gilberto (nel Word in corsivo). Tolto solo il rimando di nota [1] della 1.1 (Paivio, 1971).
+Testi copiati parola per parola dal sorgente del Word (`fai_word_regole.py`, liste CAT, INTRO, CORSIVO; = VOCABOLARIO_GENERALE.pdf).
+Righe in corsivo = formulazioni approvate da me (nel Word in corsivo). Tolto solo il rimando di nota [1] della 1.1 (Paivio, 1971).
 Le regole valgono per qualunque materia; gli esempi stanno in fondo, separati, e NON fanno parte delle regole.
 
 ## 1. Cognitive offload
@@ -70,7 +70,7 @@ Uno dei modi ipertestuali più semplici per collegare due elementi è il colore:
 
 ---
 
-## ESEMPI (solo esempi, dai suoi schemi; da NON dare al modello come regole)
+## ESEMPI (solo esempi, dai miei schemi; da NON dare al modello come regole)
 Didascalie delle immagini del Word, copiate dal sorgente (DIDA, VISIVO). Le materie compaiono solo qui.
 
 **1.1 Doppia codifica (dual coding)**

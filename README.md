@@ -1,40 +1,36 @@
 # Vocabolario di stile per generare schemi di studio (tirocinio UniVR)
 
-Tirocinio di Informatica (UniVR): dai miei schemi di studio estraggo un **vocabolario di regole** (cosa fare, cosa non fare, stile, numeri misurabili) e lo do a un modello (Claude/GPT) perché generi schemi nuovi nel mio stile. Gli strumenti misurano quanto la pagina generata somiglia ai miei schemi e collegano ogni schema alla pagina del prof da cui nasce.
+Dai miei schemi di studio ho estratto un vocabolario di regole: lo dai a GPT o Claude in chat con la pagina del prof, e il modello fa lo schema nel mio stile; gli strumenti misurano quanto ci somiglia.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/03gilbe-design/vocabolario-schemi-studio/blob/main/Demo_Pacchetto_Schemi_Colab.ipynb)
+**Il mio stile** (le mie pagine, da cui nascono le regole):<br>
+<a href="i_miei_schemi/grandi/architettura_cache.png"><img src="i_miei_schemi/mini/architettura_cache.png" height="150" alt="Architettura"></a> <a href="i_miei_schemi/grandi/basi_di_dati_costi.png"><img src="i_miei_schemi/mini/basi_di_dati_costi.png" height="150" alt="Basi di Dati"></a> <a href="i_miei_schemi/grandi/fisica_moto_parabolico.png"><img src="i_miei_schemi/mini/fisica_moto_parabolico.png" height="150" alt="Fisica"></a> <a href="i_miei_schemi/grandi/linguaggi_pumping_lemma.png"><img src="i_miei_schemi/mini/linguaggi_pumping_lemma.png" height="150" alt="Linguaggi"></a><br>
+[tutte le pagine →](i_miei_schemi/)
 
-![Cosa diamo all'AI e cosa c'è su GitHub](img/cosa_diamo_all_ai.png)
+**Cosa ho imparato dagli esperimenti** (cosa ha funzionato, cosa no): [documenti_tirocinio/cosa_abbiamo_imparato/](documenti_tirocinio/cosa_abbiamo_imparato/)
 
-![Cosa trovi nelle cartelle](img/cartelle.png)
+**Usalo in 3 passi**
+1. Apri la **Demo** in Colab qui sotto (serve un account Google, niente chiavi): *Runtime > Esegui tutto*, alla fine scarichi `per_GPT.zip`.
+2. In una chat con GPT o Claude allega dallo zip `PACCHETTO_MODELLO.md`, `FRASI_PER_IL_MODELLO.md` e `numeri.json`, più la pagina del prof; poi incolla il testo di `PROMPT_PER_GPT.txt`.
+3. Se lo schema esce male scrivi «non hai rispettato la regola X, correggi solo questo», poi «quale regola non era chiara?». Esempio di com'è venuto a me: [esempi_confronti/](esempi_confronti/).
 
-![Come funziona](img/come_funziona.png)
-
-**Ogni file, uno per uno, con cos'è e quando ti serve:** [img/mappa_file.svg](img/mappa_file.svg)
-
-**Tutte le grafiche delle regole (174), a muro:** [grafiche_regole/](grafiche_regole/) — cosa si vede e a cosa serve ciascuna in [grafiche_regole/INDICE.md](grafiche_regole/INDICE.md)
-
-- **Prova in 1 clic:** bottone Colab qui sopra. Niente chiavi, gira sugli esempi inclusi.
-- **Usa il vocabolario:** scarica `per_GPT.zip` dalla Demo e dallo a GPT o Claude in chat, poi la pagina del prof.
-- **Scarica una versione vecchia:** tab *Commits* → *Browse files* → *Code* → *Download ZIP*.
-
-## Video tutorial
-
-| # | Video | Cosa mostra |
-|---|---|---|
-| 0 | [**Il repo in 2 minuti**](docs/video/0_il_repo_in_2_minuti.mp4) | **parti da qui:** giro vero del repo, cosa rappresenta ogni cartella e file |
-| 1 | [Panoramica del repo](docs/video/1_panoramica_repo.mp4) | cosa c'è in ogni cartella e da dove partire |
-| 2 | [Demo Colab → per_GPT.zip](docs/video/2_demo_colab_per_GPT.mp4) | un clic: numeri, controllo OK/FUORI, zip da dare al modello |
-| 3 | [Collega schema e pagina del prof](docs/video/3_collega_schema_pagina_prof.mp4) | stesso numero e colore = stesso pezzo; con testo 15/15 |
-| 4 | [Numeri e controllo OK/FUORI](docs/video/4_numeri_OK_FUORI.mp4) | i 4 numeri che cambiano il modello e `controlla_stile.py` |
-| 5 | [Chat Claude gratuita](docs/video/5_chat_claude_gratuita.mp4) | 3 file + 1 riga, poi «correggi»: 2 difetti sistemati |
-| 6 | [Usare il codice](docs/video/6_usare_il_codice.mp4) | i 3 comandi lanciati davvero, con il loro output: misura, controlla OK/FUORI, collega |
-| 7 | [In chat, passo per passo](docs/video/7_in_chat_passo_passo.mp4) | quali file allegare e cosa scrivere: prompt, «correggi», «quale regola non era chiara?» |
-
-| Cartella | Cosa c'è |
+| Prova in 1 clic, niente chiavi | |
 |---|---|
-| `esempi_schemi_e_pagine_generate/` | appunti e pagine di prova |
-| `vocabolario/` | le regole da dare al modello |
-| `strumenti/` | 1 trascrivi lezioni · 2 collega schema a pagina prof · 3 misura stile dai numeri |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/03gilbe-design/vocabolario-schemi-studio/blob/main/strumenti/0_demo_colab_per_GPT.ipynb) | **Demo**: misura i numeri, controlla una pagina OK/FUORI, ti dà `per_GPT.zip` da allegare in chat |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/03gilbe-design/vocabolario-schemi-studio/blob/main/collega_schema_a_pagina_prof/collega_pagine_colab.ipynb) | **Collega**: carichi i tuoi schemi e le pagine del prof, ti dice da quale pagina viene ogni appunto |
 
-Spiegazioni complete e risultati: [docs/DETTAGLI.md](docs/DETTAGLI.md)
+<table><tr>
+<td width="50%"><a href="documenti_tirocinio/video/3_collega_schema_pagina_prof.mp4"><img src="documenti_tirocinio/video/gif/3_collega_schema_pagina_prof.gif" width="100%" alt="Collega schema e pagina del prof"></a><br><sub><b>Collega schema e pagina del prof</b>: stesso numero e colore = stesso pezzo (clic = video)</sub></td>
+<td width="50%"><a href="documenti_tirocinio/video/4_numeri_OK_FUORI.mp4"><img src="documenti_tirocinio/video/gif/4_numeri_OK_FUORI.gif" width="100%" alt="Numeri e controllo OK/FUORI"></a><br><sub><b>Numeri e controllo OK/FUORI</b>: la pagina generata dentro o fuori dai miei numeri (clic = video)</sub></td>
+</tr></table>
+
+| Cartella | Cosa ci trovi |
+|---|---|
+| [`i_miei_schemi/`](i_miei_schemi/) | le mie pagine di studio, di materie diverse: la fonte dello stile |
+| [`vocabolario/`](vocabolario/) | le regole; in `pronto_per_il_modello/` tutto in un file da dare al modello |
+| [`trascrivi_lezioni/`](trascrivi_lezioni/) | il testo di una lezione, con chi parla (Whisper su GPU Colab) |
+| [`collega_schema_a_pagina_prof/`](collega_schema_a_pagina_prof/) | da quale pagina del prof nasce ogni appunto: il notebook Collega e gli script dal PC |
+| [`strumenti/`](strumenti/) | il notebook Demo · 1 misura stile dai numeri · 2 grafiche per spiegare le regole |
+| [`esempi_confronti/`](esempi_confronti/) | il mio schema, l'AI senza regole e con le mie regole |
+| [`documenti_tirocinio/`](documenti_tirocinio/) | cosa ho imparato dagli esperimenti, spiegazioni lunghe, 8 video tutorial, i miei appunti di Architettura, le grafiche di questa pagina |
+
+Parti dal [video 0: il repo in 2 minuti](documenti_tirocinio/video/0_il_repo_in_2_minuti.mp4). Ogni file, uno per uno: [mappa_file.svg](documenti_tirocinio/immagini_readme/mappa_file.svg). Versione vecchia: tab *Commits* → *Browse files* → *Code* → *Download ZIP*.
